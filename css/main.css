@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@300;400&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+
+.logo span {
+    color: aqua;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+
+.menu .menu-li {
+    color: aqua;
+}
+
+.menu a:hover {
+    background-color: aqua;
+    color: black;
+    transition: ease-in 0.4s;
+    border-radius: 10px;
+}
+
+
+.main {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.informacion p {
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h2 span {
+    color: aqua;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 69);
+}
+
+.download-cv:hover {
+    background-color: white;
+    box-shadow: none;
+    color: blueviolet;
+    transition: 2s;
+}
+
+.main img {
+    width: 350px;
+    border: 7px solid aqua;
+    height: 450px;
+    border-radius: 15px;
+
+}
