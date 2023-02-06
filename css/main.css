@@ -13,7 +13,7 @@ body {
 .contenedor-menu {
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: #191c32;
     color: white;
 }
 
@@ -26,6 +26,11 @@ body {
 
 .logo span {
     color: aqua;
+}
+
+.logo span:hover {
+    color: blueviolet;
+    transition: 4s;
 }
 
 .menu {
@@ -51,7 +56,7 @@ body {
 
 .menu a:hover {
     background-color: aqua;
-    color: black;
+    color: #191c32;
     transition: ease-in 0.4s;
     border-radius: 10px;
 }
@@ -80,6 +85,11 @@ h2 span {
     color: aqua;
 }
 
+h2 span:hover {
+    color: blueviolet;
+    transition: 4s;
+}
+
 .download-cv {
     padding: 10px 20px;
     background-color: aqua;
@@ -103,4 +113,38 @@ h2 span {
     height: 450px;
     border-radius: 15px;
 
+}
+
+/* sobre mi */
+
+.sobre-mi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.sobre-mi img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.sobre-mi-texto {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.sobre-mi-texto h2 {
+    font-size: 2em;
+    color: #191c32 ;
+}
+
+.sobre-mi-texto span:hover {
+    color: blueviolet;
+    transition: 4s;
+}
+
+.sobre-mi-texto p {
+    padding-top: 2em;
+    color: #191c32 ;
 }
